@@ -1,0 +1,36 @@
+@use 'variables';
+@use 'global';
+
+.selling {
+    section {
+    background: variables.$third-color;
+    padding: 100px 80px;
+    .divH1 {
+        border-bottom: 1px solid variables.$fouth-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 3px;
+        h1 {
+            @include variables.blackH1;
+            span {
+                @include variables.greenSpan;    
+            }
+        }
+        p {
+            @include variables.showP;
+        }
+    }
+    .sellingCards {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        padding: 50px 20px;
+        button {
+            @include variables.greenButton;
+            padding: 15px 120px;
+            margin-top: 16px;
+        }
+    }
+}
+}    

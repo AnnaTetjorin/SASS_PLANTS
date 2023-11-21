@@ -1,0 +1,593 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 1350px;
+}
+
+header .headerOne {
+  height: 45px;
+  background: #50806B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .headerOne p {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+header .headerOne span {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin-left: 180px;
+  margin-right: 20px;
+}
+header .headerTwo {
+  height: 60px;
+  display: flex;
+  background: #FFF;
+  justify-content: space-around;
+  align-items: center;
+}
+header .headerTwo span {
+  color: #50806B;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+header .headerTwo p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+header .headerTwo nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+header .headerTwo nav ul li {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+header .headerTwo .searchAndKorb {
+  display: flex;
+  gap: 10px;
+}
+header .headerTwo .searchAndKorb input {
+  border: none;
+  width: 63px;
+}
+header .headerTwo .searchAndKorb input::-moz-placeholder {
+  color: #979797;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+header .headerTwo .searchAndKorb input::placeholder {
+  color: #979797;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+header .headerTwo .searchAndKorb .searchImg {
+  width: 22px;
+  height: 22px;
+  margin: auto;
+}
+header .headerTwo .searchAndKorb .line {
+  width: 2px;
+  height: 37px;
+  background: #979797;
+  margin: auto 20px;
+}
+header .headerTwo .searchAndKorb .korb {
+  width: 18px;
+  height: 20px;
+  margin: auto;
+}
+header .headerTwo .searchAndKorb .three {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  margin: auto;
+}
+
+.passion {
+  height: 700px;
+}
+.passion section {
+  background: #E8EDDE;
+}
+.passion section .imgs-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.passion section .imgs-container .bigImg {
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
+  position: relative;
+}
+.passion section .divMiddle {
+  max-width: 590px;
+  position: absolute;
+  top: 105px;
+  left: 30%;
+  height: 700px;
+  background: rgba(80, 128, 107, 0.2);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  justify-content: center;
+  align-items: center;
+  padding: 140px 40px;
+  z-index: 1;
+}
+.passion section .divMiddle h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: 2.4px;
+}
+.passion section .divMiddle p {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 60px auto;
+}
+.passion section .divMiddle button {
+  display: flex;
+  padding: 24px 56px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #FFF;
+  border: none;
+  margin: auto;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+}
+
+.greenLine {
+  height: 45px;
+  background: #50806B;
+  z-index: 5;
+}
+
+.category {
+  background: #FFF;
+  padding: 130px 80px;
+}
+.category h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.category h1 span {
+  color: #50806B;
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.category .blackLine {
+  width: 99%;
+  height: 1px;
+  background-color: #000;
+  margin: 30px 0;
+}
+.category .flowers {
+  display: flex;
+  gap: 15px;
+}
+.category .flowers div img {
+  height: 190px;
+  align-self: stretch;
+  border-radius: 20px;
+  box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.16);
+}
+.category .flowers div p {
+  color: #343434;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.2px;
+}
+
+.selling section {
+  background: #FFF;
+  padding: 100px 80px;
+}
+.selling section .divH1 {
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3px;
+}
+.selling section .divH1 h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.selling section .divH1 h1 span {
+  color: #50806B;
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.selling section .divH1 p {
+  color: #000;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.7px;
+  text-transform: uppercase;
+}
+.selling section .sellingCards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px 20px;
+}
+.selling section .sellingCards button {
+  border-radius: 8px;
+  border: none;
+  color: #FFF;
+  background: #50806B;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+  padding: 15px 120px;
+  margin-top: 16px;
+}
+
+.plants section {
+  background: #E8EDDE;
+  padding: 100px 80px;
+}
+.plants section .divH1 {
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3px;
+}
+.plants section .divH1 h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.plants section .divH1 h1 span {
+  color: #50806B;
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.plants section .divH1 p {
+  color: #000;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.7px;
+  text-transform: uppercase;
+}
+.plants section .plantsCards {
+  margin-top: 40px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.plants section .plantsCards .card {
+  background: #FFF;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 16px;
+  box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+}
+.plants section .plantsCards .card img {
+  border-radius: 8px;
+}
+.plants section .plantsCards .card p {
+  color: #343434;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.plants section .plantsCards .card span {
+  color: #343434;
+}
+.plants section .plantsCards .card button {
+  border-radius: 8px;
+  border: none;
+  color: #FFF;
+  background: #50806B;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+  padding: 12px 100px;
+  color: #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.deals section {
+  padding: 100px 80px;
+}
+.deals section h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.deals section h1 span {
+  color: #50806B;
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.deals section .blackLine {
+  width: 99%;
+  height: 1px;
+  background-color: #000;
+  margin: 30px 0;
+}
+.deals section .dealsCards {
+  margin-top: 40px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.deals section .dealsCards .deal {
+  background: #FFF;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 16px;
+  box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+}
+.deals section .dealsCards .deal img {
+  border-radius: 8px;
+}
+.deals section .dealsCards .deal p {
+  color: #343434;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.deals section .dealsCards .deal span {
+  color: #343434;
+  font-size: 20px;
+}
+.deals section .dealsCards .deal span .red {
+  color: #D11F1F;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration-line: line-through;
+}
+.deals section .dealsCards .deal button {
+  border-radius: 8px;
+  border: none;
+  color: #FFF;
+  background: #50806B;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+  padding: 12px 100px;
+  color: #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.testimonials section {
+  background: #E8EDDE;
+  padding: 100px 40px;
+}
+.testimonials section h1 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 62px;
+  letter-spacing: -2.4px;
+}
+.testimonials section .underH1 {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27.6px;
+  letter-spacing: 0.1px;
+  margin-top: 10px;
+}
+.testimonials section .cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.testimonials section .cards .testCard {
+  background: #FFF;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  width: 300px;
+  gap: 10px;
+}
+.testimonials section .cards .testCard p {
+  color: #1D293F;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.8px;
+}
+.testimonials section .cards .testCard span {
+  color: #7C8087;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  background: #FFF;
+  padding: 80px 30px;
+}
+footer .faqs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+footer .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.greenLine {
+  text-align: center;
+  padding: 10px;
+  color: #E8EDDE;
+  font-family: Public Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=input.css.map */

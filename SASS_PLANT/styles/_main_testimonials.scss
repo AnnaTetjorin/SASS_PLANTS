@@ -1,0 +1,65 @@
+@use 'variables';
+@use 'global';
+
+.testimonials {
+    section {
+        background: variables.$secondary-bg-color;
+        padding: 100px 40px;
+        h1 {
+            color: variables.$fouth-color;
+            text-align: center;
+            font-family: variables.$main-font;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 62px; 
+            letter-spacing: -2.4px;
+        }
+        .underH1 {
+            color: variables.$fouth-color;
+            text-align: center;
+            font-family: variables.$secondary-font;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 27.6px; 
+            letter-spacing: 0.1px;
+            margin-top: 10px;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            .testCard {
+                background: variables.$third-color;
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                text-align: center;
+                width: 300px;
+                gap: 10px;
+                p {
+                    color: #1D293F;
+                    text-align: center;
+                    font-family: variables.$main-font;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 28.8px;
+                }
+                span {
+                    color: #7C8087;
+                    text-align: center;
+                    font-family: variables.$main-font;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
